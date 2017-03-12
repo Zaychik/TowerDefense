@@ -16,7 +16,8 @@ public:
     void set_width(int );
     void set_hight(int );
 private:
-     Envirenment **Land;
+     //Envirenment **Land;
+     vector< vector<Envirenment> > Land;
      int width, hight;
 };
 

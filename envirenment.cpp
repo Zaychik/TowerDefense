@@ -8,7 +8,7 @@ void Envirenment::valid(){
         valid_values_envir v;
         v.t_p = 't'; v.p_w = 0;
         for (int i = 0; i < 4; i++) { v.t_o = i; v_v_e.push_back(v);}
-        /*асфальт или грязь только с дорогой*/
+        /*только асфальт или грязь  с дорогой*/
         v.t_p = 'p'; v.t_o = 0; v.p_w = 0;
         v_v_e.push_back(v);
         v.t_p = 'p'; v.t_o = 0; v.p_w = 1;

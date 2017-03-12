@@ -25,7 +25,7 @@ public:
     enum Type_Object{Road, Tree, Water, Mount};
     enum Proper_way{asphalt, dirt, nature};
     Envirenment(int, int); /*конструктор для задания тип и свойства*/
-    Envirenment(int);  /*конструктор для задания тип*/
+//    Envirenment(int);  /*конструктор для задания тип*/
     //Envirenment();
     Type_Object get_type() const{return this->type;}
     Proper_way get_properties() const{return this->properties;}
@@ -38,7 +38,7 @@ public:
 private:
     Type_Object type;
     Proper_way properties;
-    list<Shape> list;    
+    list <Shape *> Shapelist;
 
 
 };

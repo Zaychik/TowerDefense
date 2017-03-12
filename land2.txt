@@ -1,3 +1,0 @@
-Ivanov 20 3
-Petrov 18 2
-Sidorov 24 4
